@@ -1,0 +1,157 @@
+/* main {
+background-color: rgba(30,30,30,255);
+} 
+*/
+
+@font-face {
+   font-family: sf;
+   src: url(SF-Pro-Text-Regular.otf) format('truetype');
+ }
+
+@font-face {
+   font-family: sfbold;
+   src: url(SF-Pro-Text-Bold.otf) format('truetype');
+ }
+
+@font-face {
+   font-family: sfheavy;
+   src: url(SF-Pro-Text-Heavy.otf) format('truetype');
+ }
+
+/* header {
+ 
+}
+*/
+
+#homeicon {
+   width: 17px;
+   height: 17px;
+}
+
+#bodyimg {
+   border-radius: 20px;
+   width: 100%;
+   box-shadow: 0px 0px 2px #fff
+}
+
+
+.title {
+   text-align: left;
+   color: white;
+   font-family: sfheavy;
+   font-size: 25px;
+   padding-left: 180px;
+}
+
+.body_title {
+   text-align: center;
+   color: white;
+   font-family: sfheavy;
+   font-size: 40px;
+}
+
+.sub_title {
+   text-align: center;
+   color: white;
+   font-family: sfbold;
+   font-size: 30px;
+}
+
+.body_text {
+   text-align: center;
+   color: white;
+   font-family: sf;
+   font-size: 18px;
+}
+
+.body {
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgba(28,28,30,255);
+   color: white;
+   font-family: sf;
+   margin-left: 180px;
+   margin-right: 180px;
+   padding-top: 60px;
+   padding-bottom: 5px;
+}
+
+.sidenav {
+   height: 100%; /* Full-height: remove this if you want "auto" height */
+   width: 145px; /* Set the width of the sidebar */
+   position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+   z-index: 1; /* Stay on top */
+   top: 0; /* Stay at the top */
+   left: 0;
+   background-color: rgba(28,28,30,255); 
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 40px;
+   font-family: sf;
+   box-shadow: -3.8px 0px 10px 0.5px white;
+ }
+
+ /* The navigation menu links */
+.sidenav a {
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 12px;
+   margin-right: 12px;
+   padding: 6.2px;
+   text-indent: 10px;   
+   text-decoration: none;
+   font-size: 13px;
+   color: white;
+   display: block;
+ }
+ 
+ /* When you mouse over the navigation links, change their color */
+ .sidenav a:hover {
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 12px;
+   margin-right: 12px;
+   padding: 6.2px;
+   border-radius: 6px;
+   background-color: rgba(81,81,81,255);
+   color: white;
+   display: block;
+ }
+ 
+ /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+ @media screen and (max-height: 450px) {
+   .sidenav {padding-top: 15px;}
+   .sidenav a {font-size: 18px;}
+ }
+
+ .button {
+   align-items: center;
+   text-align: center;
+   width: 120px;
+   height: 30px;
+   font-family: sf;
+   color: white;
+   background-color: rgba(28,28,30,255);
+   font-size: 19px;
+   padding-top: 4px;
+   margin-left: 500px;
+   border: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+ } 
+
+ .button:hover, .button:active, .button:focus, .button:visited{
+   text-decoration: none;
+   color: black;
+   background-color: rgb(0, 255, 136);
+ }
+
+ .button_container {
+   width: auto;
+   padding: 8px;
+   padding-bottom: 18px;
+   background-color: rgb(0, 0, 0);
+   border-radius: 10px;
+ }
+
+ 
+
