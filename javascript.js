@@ -66,3 +66,29 @@ setInterval(function(){
 }, 1000);
 */
 
+function changeImg(){
+   var now     = new Date(); 
+   var hour    = now.getHours();
+   var temp = "a";
+   if(hour>=12){
+      temp = "PM";
+   } else {
+      temp = "AM";
+   }
+
+   if (hour <=4){
+   document.getElementById('Bg').src="22Desert Sands 22 by Louis Coyle-2.png";
+   } else if (hour >=4 && hour <=6){
+      document.getElementById('Bg').src="22Desert Sands 22 by Louis Coyle-1.png";
+   } else if (hour >=7 && hour <=10){
+      document.getElementById('Bg').src="22Desert Sands 22 by Louis Coyle-4.png";
+   } else if (hour >=11 && hour <=19){
+      document.getElementById('Bg').src="22Desert Sands 22 by Louis Coyle-5.png";
+   } else if (hour >=20 && hour <=24){
+      document.getElementById('Bg').src="22Desert Sands 22 by Louis Coyle-6.png";
+   } else if (hour >=0 && hour <= 3){
+      document.getElementById('Bg').src="22Desert Sands 22 by Louis Coyle-6.png";
+   }
+}
+
+window.onload = changeImg();
