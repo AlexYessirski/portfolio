@@ -8,11 +8,19 @@
 }
 
 .navbar {
-   padding: 10px;
+   padding-top: 10px;
+   padding-bottom: 40px;
+   padding-left: 15px;
+   margin-bottom: 50px;
    background-color: lime;
    width: 100%;
    height: auto;
    position: static;
+}
+
+.navbar ul {
+   background-color: yellow;
+   border: 0;
 }
 
 .navbar li {
@@ -26,4 +34,5 @@
    padding-left: 10px;
    padding-right: 10px;
    text-decoration: none;
+   font-size: 20px;
 }
