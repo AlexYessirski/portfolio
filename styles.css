@@ -12,6 +12,7 @@
    background-color: lime;
    width: auto;
    height: 70px;
+   position: absolute;
 }
 
 .navbar li {
