@@ -1,6 +1,7 @@
 * {
    padding: 0;
-   border: 10px, red;
+   border: 2px solid red;
    margin: 0;
    box-sizing: border-box;
+   background-color: rgb(40, 40, 40);
 }
