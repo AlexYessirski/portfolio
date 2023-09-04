@@ -49,8 +49,13 @@
 
  @media screen and (min-width: 1500px) and (max-width: 2560px){
    .navbar li a {
-      font-size: 1.3vw;
+      font-size: 1.5vw;
     }
+
+   .navbar li {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
 
     .navbar ul {
       margin-bottom: 1vw;
@@ -61,7 +66,10 @@
    .navbar li a {
       font-size: 2vw;
     }
-
+   .navbar li {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
     .navbar ul {
       margin-bottom: 1vw;
     }
