@@ -6,3 +6,21 @@
    background-color: rgb(40, 40, 40);
    color: white;
 }
+
+.navbar {
+   padding: 10px;
+   background-color: lime;
+   width: auto;
+   height: 70px;
+}
+
+.navbar li {
+   padding: 10px;
+   list-style: none;
+   text-align: left;
+   float: left;
+}
+
+.navbar li a {
+   text-decoration: none;
+}
