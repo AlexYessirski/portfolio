@@ -8,19 +8,18 @@
 }
 
 .navbar {
-   padding-top: 10px;
-   padding-bottom: 40px;
-   padding-left: 15px;
-   margin-bottom: 50px;
-   background-color: lime;
-   width: 100%;
-   height: auto;
-   position: static;
+   margin 0;
 }
 
 .navbar ul {
    background-color: yellow;
    border: 0;
+   padding-top:  1vh;
+   background-color: lime;
+   width: 100%;
+   height: 100%;
+   position: static;
+   margin-bottom: 50px;
 }
 
 .navbar li {
@@ -34,5 +33,37 @@
    padding-left: 10px;
    padding-right: 10px;
    text-decoration: none;
-   font-size: 20px;
+   font-size: 2vw;
 }
+
+@media screen and (max-width: 768px) {
+   .navbar li a {
+     font-size: 5vw;
+   }
+   .navbar ul {
+      margin-bottom: 40px;
+    }
+ }
+
+ @media screen and (min-width: 1600px) and (max-width: 2560px){
+   .navbar li a {
+      font-size: 2.5vw;
+    }
+
+    .navbar ul {
+      margin-bottom: 90px;
+    }
+ }
+
+ @media screen and (min-width: 2561px) {
+   .navbar li a {
+      font-size: 3vw;
+    }
+
+    .navbar ul {
+      margin-bottom: 7vw;
+    }
+ }
+
+
+ 
