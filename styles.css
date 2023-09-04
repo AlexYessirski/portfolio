@@ -10,18 +10,20 @@
 .navbar {
    padding: 10px;
    background-color: lime;
-   width: auto;
-   height: 70px;
+   width: 100%;
+   height: auto;
    position: absolute;
 }
 
 .navbar li {
-   padding: 10px;
    list-style: none;
    text-align: left;
    float: left;
+   background-color: blue;
 }
 
 .navbar li a {
+   padding-left: 10px;
+   padding-right: 10px;
    text-decoration: none;
 }
