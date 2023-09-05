@@ -33,6 +33,10 @@ ul.navbar li {
    padding: 10px;
 }
 
+a.navbar-active {
+   background-color: rgb(23, 23, 23);
+}
+
 .navbar li a:hover {
    background-color: rgb(23, 23, 23);
 }
