@@ -9,7 +9,7 @@ html {
  
 body {
    padding: 0;
-   background-color: rgba(42,42,42,1);
+   background-color: rgba(18, 19, 24, 1);
    border: 0;
    margin: 0;
    color: white;
@@ -17,7 +17,7 @@ body {
 }
 
 .navbar.container {
-   background-color: rgb(0, 0, 0, 0.6);
+   background-color: rgba(38, 41, 47, 1);
    display: flex;
    flex-direction: row;
    flex-wrap: nowrap;
@@ -30,10 +30,11 @@ body {
 .navbar-item {
    flex-grow: 1;
    text-align: center;
-   background-color: rgba(0, 0, 0, 0);
+   background-color: rgba(38, 41, 47, 1);
    padding: 0.8vw;
    padding-left: 2vw;
    padding-right: 2vw;
+   padding-bottom: 1vw;
    font-size: 1rem;
 }
 
@@ -44,10 +45,10 @@ a.navbar-item {
 }
 
 .navbar-item:hover {
-   background-color: rgb(0, 0, 0, 0.6);
+   background-color: rgb(61, 65, 74);
 }
 
 .navbar-item.navbar-active {
-   background-color: rgba(0, 0, 0, 0.6);
+   background-color: rgb(61, 65, 74);
 }
  
