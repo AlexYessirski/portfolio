@@ -30,7 +30,7 @@ body::-webkit-scrollbar{
    align-items: flex-start;
    width: 100%;
    padding-right: 70%;
-   padding-left: 10%;
+   padding-left: 9%;
    margin-bottom: 5vw;
    position: sticky;
    top: 0;
@@ -46,7 +46,7 @@ body::-webkit-scrollbar{
    backdrop-filter: blur();
    padding: 1vw;
    font-weight: bold;
-   font-size: 0.9rem;
+   font-size: 1.5rem;
 }
 
 a.navbar-item {
@@ -93,6 +93,8 @@ a.navbar-active {
    margin-right: -10vw;
    margin-top: 1vw;
    margin-bottom: 10vw;
+   padding-bottom: 2vw;
+   padding-top: 1vw;
    display: flex;
    flex-direction: row;
    overflow-x: auto;
@@ -100,6 +102,7 @@ a.navbar-active {
    flex-wrap: nowrap;
    align-items: center;
    -webkit-overflow-scrolling: touch;
+   scroll-behavior: smooth;
 }
 
 .project-wheel::-webkit-scrollbar {
@@ -115,6 +118,7 @@ a.navbar-active {
    border-radius: 5vw;
    margin: 0 1vw 0 1vw;
    font-size: 1rem;
+   box-shadow: 0 8px 16px black;
 }
 
 
