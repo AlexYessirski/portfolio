@@ -43,10 +43,10 @@ body::-webkit-scrollbar{
    text-align: center;
    background-color: rgb(255, 103, 64, 0);
    border: 0.5vw;
-   margin: 0 10vw 0 auto;
    border-style: solid;
    border-color: rgb(255, 103, 64);
    backdrop-filter: blur();
+   margin: 0.5vw 10vw 0.5vw auto;
    padding: 1vw;
    font-weight: bold;
    font-size: 1.2rem;
