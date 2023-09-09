@@ -155,5 +155,13 @@ img.center50 {
    font-size: 1rem;
 }
 
+@media (max-width: 500) {
+   .navbar-item, .navbar-active {
+      font-size: 2rem;
+   }
 
+   .navbar-button {
+      font-size: 2rem;
+   }
+}
  
